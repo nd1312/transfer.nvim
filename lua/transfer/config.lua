@@ -33,6 +33,8 @@ return {
     ".nvim",
     "--exclude",
     "*.pyc",
+    "--exclude-from",
+    ".deployignore"
   },
   download_rsync_params = { -- a table of strings or functions
     "-rlzi",
